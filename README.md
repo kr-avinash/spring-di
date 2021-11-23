@@ -1,7 +1,5 @@
 # spring-di
 
-![image](https://user-images.githubusercontent.com/73075560/143064652-bf97f3a0-ec7b-4346-8856-e1fbcde742f6.png)
-
 # Dependency Injection Examples
 
 This repository is for an example application built in my [Spring Framework 5 - Beginner to Guru](https://www.udemy.com/testing-spring-boot-beginner-to-guru/?couponCode=GITHUB_REPO) online course
