@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import guru.springframework.sfgpetclinic.services.GreetingServiceImpl;
+import guru.springframework.sfgpetclinic.services.ConstructorInjectedGreetingService;
 
 public class PropertyInjectedControllerTest {
 
@@ -14,7 +14,7 @@ public class PropertyInjectedControllerTest {
 	@BeforeEach
 	void setup() {
 		controller = new PropertyInjectedController();
-		controller.greetingService = new GreetingServiceImpl();
+		controller.greetingService = new ConstructorInjectedGreetingService();
 	}
 
 	@Test

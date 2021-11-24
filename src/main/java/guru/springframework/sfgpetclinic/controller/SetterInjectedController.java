@@ -1,6 +1,7 @@
 package guru.springframework.sfgpetclinic.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 
 import guru.springframework.sfgpetclinic.services.GreetingService;
@@ -8,6 +9,8 @@ import guru.springframework.sfgpetclinic.services.GreetingService;
 @Controller
 public class SetterInjectedController {
 
+	
+	@Qualifier("setterInjectedGreetingService")
 	@Autowired
 	private GreetingService greeting;
 	
