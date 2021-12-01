@@ -11,7 +11,8 @@ public class ConstructorInjectedController {
 	private GreetingService greetingService;
 
 	// @Autowired annotation is Optional here since Spring 4.x
-	public ConstructorInjectedController(@Qualifier("constructorInjectedGreetingService") GreetingService greetingService) {
+	public ConstructorInjectedController(
+			@Qualifier("constructorInjectedGreetingService") GreetingService greetingService) {
 		this.greetingService = greetingService;
 	}
 
