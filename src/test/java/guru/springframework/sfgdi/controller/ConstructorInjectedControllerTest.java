@@ -1,9 +1,10 @@
-package guru.springframework.sfgpetclinic.controller;
+package guru.springframework.sfgdi.controller;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import guru.springframework.sfgpetclinic.services.ConstructorInjectedGreetingService;
+import guru.springframework.sfgdi.controller.ConstructorInjectedController;
+import guru.springframework.sfgdi.services.ConstructorInjectedGreetingService;
 
 public class ConstructorInjectedControllerTest {
 	

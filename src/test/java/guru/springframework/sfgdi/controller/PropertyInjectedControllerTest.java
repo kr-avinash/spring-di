@@ -1,11 +1,12 @@
-package guru.springframework.sfgpetclinic.controller;
+package guru.springframework.sfgdi.controller;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import guru.springframework.sfgpetclinic.services.ConstructorInjectedGreetingService;
+import guru.springframework.sfgdi.controller.PropertyInjectedController;
+import guru.springframework.sfgdi.services.ConstructorInjectedGreetingService;
 
 public class PropertyInjectedControllerTest {
 

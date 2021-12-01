@@ -1,14 +1,14 @@
-package guru.springframework.sfgpetclinic;
+package guru.springframework.sfgdi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ConfigurableApplicationContext;
 
-import guru.springframework.sfgpetclinic.controller.ConstructorInjectedController;
-import guru.springframework.sfgpetclinic.controller.MyController;
-import guru.springframework.sfgpetclinic.controller.PropertyInjectedController;
-import guru.springframework.sfgpetclinic.controller.SetterInjectedController;
+import guru.springframework.sfgdi.controller.ConstructorInjectedController;
+import guru.springframework.sfgdi.controller.MyController;
+import guru.springframework.sfgdi.controller.PropertyInjectedController;
+import guru.springframework.sfgdi.controller.SetterInjectedController;
 
 @SpringBootApplication
 public class SpringDiApplication {
