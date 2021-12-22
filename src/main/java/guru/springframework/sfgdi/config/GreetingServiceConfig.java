@@ -9,6 +9,10 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
 import org.springframework.context.annotation.Profile;
 
+import com.springframework.pets.CatPetService;
+import com.springframework.pets.DogPetService;
+import com.springframework.pets.PetService;
+
 import guru.springframework.sfgdi.repository.EnglishGreetingRepository;
 import guru.springframework.sfgdi.repository.EnglishGreetingRepositoryImpl;
 import guru.springframework.sfgdi.services.ConstructorInjectedGreetingService;
@@ -20,6 +24,20 @@ import guru.springframework.sfgdi.services.SetterInjectedGreetingService;
 
 @Configuration
 public class GreetingServiceConfig {
+	
+/*
+	@Profile("cat")
+	@Bean
+	PetService catPetService() {
+		return new CatPetService();
+	}
+	
+	@Profile({"dog", "default"})
+	@Bean
+	PetService dogPetService() {
+		return new DogPetService();
+	}
+*/
 	
 	@Profile("ES")
 	@Bean("i18nService")
